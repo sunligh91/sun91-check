@@ -34,7 +34,7 @@ public class Sun91CheckCommandExecutor implements CommandExecutor {
                 inventory.setItem(i, getItemStack(Material.THIN_GLASS, "§8无效区域"));
             }
             inventory.setItem(3, null);
-            inventory.setItem(5, getItemStack(Material.SIGN, "§a鉴定", "§c请将要坚定的物品放入左侧空白区域"));
+            inventory.setItem(5, getItemStack(Material.SIGN, "§a鉴定", "§c请将要鉴定的物品放入左侧空白区域"));
             p1.closeInventory();
             p1.openInventory(inventory);
         }
